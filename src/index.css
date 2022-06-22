@@ -1,0 +1,146 @@
+@import url('https://fonts.googleapis.com/css2?family=Poppins:wght@300;400;500;600&display=swap');
+
+
+* {
+    margin: 0;
+    padding: 0;
+    border: 0;
+    outline: 0;
+    box-sizing: border-box;
+    list-style: none;
+    text-decoration: none;
+}
+
+/* These are the css variables, that will be used
+throughout the project
+These help by making the colour customisation easier
+So the colour scheme can be easily modified holisitically*/
+:root {
+    --colour-bg: #df9203;
+    --colour-bg-variant: #ffab0f;
+    --colour-primary: #31a9ff;
+    --colour-primary-variant: rgba(77, 181, 255, 0.4);
+    --colour-white: #fff;
+    --colour-light: rgba(255, 255, 255, 0.6);
+    
+    --transition: all 400ms ease;
+    
+    --container-width-ig: 75%;
+    --container-width-md: 86%;
+    --container-width-sm: 90%;
+}
+
+html {
+    scroll-behavior: smooth;
+}
+
+::-webkit-scrollbar {
+    display: none; /* remove the scroll bar, we dont need it*/
+}
+
+body {
+    font-family: 'Poppins', sans-serif;
+    background: var(--colour-bg);
+    color: var(--colour-white);
+    line-height: 1.7;
+    /*background-image: url(../src/images/images/favicon-16x16.png);*/
+}
+
+/**********************General Styles******************************/
+
+.container {
+    width: var(--container-width-ig);
+    margin: 0 auto;
+}
+
+h1, h2, h3, h4, h5 {
+    font-weight: 500;
+}
+
+h1 {
+    font-size: 2.5rem;
+}
+
+section {
+    margin-top: 8rem;
+}
+
+section > h2, section > h5 {
+    text-align: center;
+    color: var(--colour-white);
+}
+
+section > h2 {
+    color: var(--colour-primary);
+    margin-bottom: 3rem;
+}
+
+.text-light {
+    color: var(--colour-light);
+}
+
+a {
+    color: var(--colour-primary);
+    transition: var(--transition);
+}
+
+a:hover {
+    color: var(--colour-white);
+}
+
+.btn {
+    width: max-content;
+    display: inline-block;
+    color: var(--colour-primary);
+    padding: 0.75rem 1.2rem;
+    border-radius: 0.4rem;
+    cursor: pointer;
+    border: 1px solid var(--colour-primary);
+    transition: var(--transition);
+}
+
+.btn:hover {
+    background: var(--colour-white);
+    color: var(--colour-bg);
+    border-color: transparent;
+}
+
+.btn-primary {
+    background: var(--colour-primary);
+    color: var(--colour-bg);
+}
+
+img {
+    display: block;
+    width: 100%;
+    margin-left: auto;
+    object-fit: cover;
+}
+
+/********************* Media Queries (medium devices) ***********************/
+@media screen and (max-width: 1024px) {
+    .container {
+        width: var(--container-width-md);
+    }
+
+    section {
+        margin-top: 6rem;
+    }
+}
+
+@media screen and (max-width: 600px) {
+    .container {
+        width: var(--container-width-sm);
+    }
+
+    section {
+        margin-top: 2rem;
+    }
+}
+
+
+
+
+
+
+

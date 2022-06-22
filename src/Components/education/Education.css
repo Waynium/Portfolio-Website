@@ -1,0 +1,26 @@
+body {
+    color: var(--colour-primary) !important;
+}
+
+.vertical-timeline-element-title h4{
+    color: var(--colour-white) !important;
+}
+
+.vertical-timeline-element-subtitle h4{
+    color: var(--colour-light) !important;
+    font-size: 1rem !important;
+}
+
+.vertical-timeline-element-content {
+    /*box-shadow: 0 025rem 0.5rem 0 rgba(0, 0, 0, 0.25), 
+                0 0.4rem 1.25rem 0 rgba(0, 0, 0, 0.15) !important;*/
+    padding: 2rem 3rem !important;
+    color: var(--colour-light) !important;
+    background: var(--colour-bg-variant) !important;
+}
+
+.vertical-timeline-element-content p { 
+    font-size: 0.85rem !important;
+}
+
+
