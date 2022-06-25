@@ -7,7 +7,7 @@ import {FiLinkedin} from 'react-icons/fi'
 const Footer = () => {
   return (
     <footer>
-      <a href="#" className="footer__logo">Waynium.007</a>
+      <a href="#" className="footer__logo">Wandile Nyembe</a>
 
       <ul className="permalinks">
         <li><a href="#">Home</a></li>
@@ -24,8 +24,8 @@ const Footer = () => {
         <a href="https://www.linkedin.com/in/wandile-nyembe-a69bb31b8/"><FiLinkedin /></a>
       </div>
 
-      <div>
-        <small>&copy; Waynium.007 All rights reserved.</small>
+      <div className="footer__copyright">
+        <small>&copy; Copyright Wandile Nyembe 2022 - All rights reserved.</small>
       </div>
     </footer>
   )

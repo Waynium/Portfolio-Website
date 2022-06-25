@@ -1,6 +1,7 @@
 import React from 'react'
 import './About.css'
-import ME from '../../images/images/stellies2.jpg'
+/*import ME from '../../images/images/stellies2.jpg'*/
+import waynium from '../../images/images/waynium2.jpg'
 import {IoIosChatbubbles} from 'react-icons/io'
 import {GiSoccerBall} from 'react-icons/gi'
 //import {VscFolderLibrary} from 'react-icons/vsc'
@@ -8,13 +9,13 @@ import {GiSoccerBall} from 'react-icons/gi'
 const About = () => {
   return (
     <section id="about">
-      <h5>Get to know</h5>
+      <h5>Get to know me</h5>
       <h2>About Me</h2>
 
       <div className="container about__container">
         <div className="about__me">
           <div className="about__me-image">
-            <img src={ME} alt="About Image" />
+            <img src={waynium} alt="About Image" />
           </div>
         </div>
         <div className="about__content"> 
