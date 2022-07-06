@@ -35,7 +35,7 @@ const tool = () => {
               <BsPatchCheckFill className="tool__details-icon" />
               <div>
                 <h4>javaScript</h4>
-                <small className="text-light">Experienced</small>
+                <small className="text-light">Intermediate</small>
               </div>
             </article>
             
@@ -43,7 +43,7 @@ const tool = () => {
               <BsPatchCheckFill className="tool__details-icon" />
               <div>
                 <h4>Bootstrap</h4>
-                <small className="text-light">Experienced</small>
+                <small className="text-light">Basic</small>
               </div>
             </article>
             
@@ -51,7 +51,7 @@ const tool = () => {
               <BsPatchCheckFill className="tool__details-icon" />
               <div>
                 <h4>React</h4>
-                <small className="text-light">Experienced</small>
+                <small className="text-light">Basic</small>
               </div>
             </article>
 
@@ -84,7 +84,7 @@ const tool = () => {
               <BsPatchCheckFill className="tool__details-icon" />
               <div>
                 <h4>MySQL</h4>
-                <small className="text-light">Basic</small>
+                <small className="text-light">Intermediate</small>
               </div>
             </article>
             
@@ -92,7 +92,7 @@ const tool = () => {
               <BsPatchCheckFill className="tool__details-icon" />
               <div>
                 <h4>Python</h4>
-                <small className="text-light">Experienced</small>
+                <small className="text-light">Basic</small>
               </div>
             </article>
             

@@ -2,6 +2,7 @@ import React from 'react'
 import './Portfolio.css'
 import IMG1 from '../../images/images/Preview.jpg'
 import IMG2 from '../../images/images/Software Engineering portfolio.jpg'
+import IMG3 from '../../images/images/JPMorgan Trading graph.JPG'
 
 const Portfolio = () => {
   return (
@@ -17,7 +18,7 @@ const Portfolio = () => {
           </div>
           <h3>Blogging Website</h3>
           <div className="portfolio__item-cta">
-            <a href="https://github.com/" className="btn" target="_blank">Github</a>
+            <a href="https://github.com/Waynium/Blogging-Website" className="btn" target="_blank">Github</a>
             <a href="https://waynium.github.io/Blogging-Website/#" className="btn btn-primary" target="_blank">Live Demo</a>
           </div>
         </article>
@@ -28,19 +29,19 @@ const Portfolio = () => {
           </div>
           <h3>Portfolio Website</h3>
           <div className="portfolio__item-cta">
-            <a href="https://github.com/" className="btn" target="_blank">Github</a>
+            <a href="https://github.com/Waynium/Portfolio-Website" className="btn" target="_blank">Github</a>
             <a href="" className="btn btn-primary" target="_blank">Live Demo</a>
           </div>
         </article>
 
         <article className="portfolio__item">
           <div className="portfolio__item-image">
-            <img src={IMG1} alt="" />
+            <img src={IMG3} alt="" />
           </div>
-          <h3>Guitar Tuner Website</h3>
+          <h3>JPMC Perspective Chart</h3>
           <div className="portfolio__item-cta">
-            <a href="https://github.com/" className="btn" target="_blank">Github</a>
-            <a href="" className="btn btn-primary" target="_blank">Live Demo</a>
+            <a href="https://github.com/Waynium/JPMorgan-Tech-Task3" className="btn" target="_blank">Github</a>
+            <a href="https://perspectivechart.netlify.app/" className="btn btn-primary" target="_blank">Live Demo</a>
           </div>
         </article>
 

@@ -18,7 +18,7 @@ So the colour scheme can be easily modified holisitically*/
 :root {
     --colour-bg: #df9203;
     --colour-bg-variant: #ffab0f;
-    --colour-primary: #31a9ff;
+    --colour-primary: #6b6b6b;
     --colour-primary-variant: rgba(77, 181, 255, 0.4);
     --colour-white: #fff;
     --colour-light: rgba(255, 255, 255, 0.6);
@@ -107,7 +107,7 @@ a:hover {
 
 .btn-primary {
     background: var(--colour-primary);
-    color: var(--colour-bg);
+    color: var(--colour-bg-variant);
 }
 
 img {

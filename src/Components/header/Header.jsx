@@ -1,8 +1,9 @@
-import React from 'react'
-import './Header.css'
-import CTA from './CTA'
-import HeaderSocials from './HeaderSocials'
+import React from 'react';
+import './Header.css';
+import CTA from './CTA';
+import HeaderSocials from './HeaderSocials';
 import ME from '../../images/images/stellies2.jpg'
+//import ME from '../../images/images/weddingpropic03.jpg';
 
 const Header = () => {
   return (
@@ -10,7 +11,7 @@ const Header = () => {
       <div className="container header__container">
         <h5>Hello I am</h5> 
         <h1 className="myname">Wandile Nyembe</h1>
-        <h3 className="text-light">Fullstack Developer</h3>
+        <h3 className="text-light">Front-end Engineer</h3>
         <CTA />
         <HeaderSocials />
       

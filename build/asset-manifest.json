@@ -1,0 +1,19 @@
+{
+  "files": {
+    "main.css": "/static/css/main.c4b538fa.css",
+    "main.js": "/static/js/main.1993fb87.js",
+    "static/media/stellies2.jpg": "/static/media/stellies2.5fce93d9ef6dca2dd815.jpg",
+    "static/media/waynium2.jpg": "/static/media/waynium2.55bdc3526c68509cf5d9.jpg",
+    "static/media/Preview.jpg": "/static/media/Preview.6d09d3b2bb3f109cc267.jpg",
+    "static/media/JPMorgan Trading graph.JPG": "/static/media/JPMorgan Trading graph.aabea8db70e99832f585.JPG",
+    "static/media/CV.pdf": "/static/media/CV.d2b0d38b79dc6ca3140c.pdf",
+    "static/media/Software Engineering portfolio.jpg": "/static/media/Software Engineering portfolio.5311f8af8fe8e0e672f7.jpg",
+    "index.html": "/index.html",
+    "main.c4b538fa.css.map": "/static/css/main.c4b538fa.css.map",
+    "main.1993fb87.js.map": "/static/js/main.1993fb87.js.map"
+  },
+  "entrypoints": [
+    "static/css/main.c4b538fa.css",
+    "static/js/main.1993fb87.js"
+  ]
+}
