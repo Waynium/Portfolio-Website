@@ -23,4 +23,17 @@ body {
     font-size: 0.85rem !important;
 }
 
+/************************* Media Queries (Medium Devices) ***************************/
+@media screen and (max-width: 1024px) {
+    #id {
+        justify-content: space-between !important;
+    };
+}
+
+/************************* Media Queries (Small Devices) **************************/
+@media screen and (max-width: 700px) {
+    #id {
+        justify-content: space-between !important;
+    }
+}
 
