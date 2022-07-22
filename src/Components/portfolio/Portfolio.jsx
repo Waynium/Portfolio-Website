@@ -1,8 +1,10 @@
 import React from 'react'
 import './Portfolio.css'
-import IMG1 from '../../images/images/Preview.jpg'
+import IMG1 from '../../images/images/bloggingwebsite.JPG'
 import IMG2 from '../../images/images/Software Engineering portfolio.jpg'
 import IMG3 from '../../images/images/JPMorgan Trading graph.JPG'
+import IMG4 from '../../images/images/breadth-first-search.JPG'
+import IMG5 from '../../images/images/Professional Services Website.JPG'
 
 const Portfolio = () => {
   return (
@@ -38,10 +40,32 @@ const Portfolio = () => {
           <div className="portfolio__item-image">
             <img src={IMG3} alt="" />
           </div>
-          <h3>JPMC Perspective Chart</h3>
+          <h3>Perspective Trading Chart</h3>
           <div className="portfolio__item-cta">
             <a href="https://github.com/Waynium/JPMorgan-Tech-Task3" className="btn" target="_blank">Github</a>
             <a href="https://perspectivechart.netlify.app/" className="btn btn-primary" target="_blank">Live Demo</a>
+          </div>
+        </article>
+
+        <article className="portfolio__item">
+          <div className="portfolio__item-image">
+            <img src={IMG4} alt="" />
+          </div>
+          <h3>Breadth First Algorithm </h3>
+          <div className="portfolio__item-cta">
+            <a href="https://github.com/Waynium/Breadth-First-Search-Algorithm" className="btn" target="_blank">Github</a>
+            <a href="https://breadth-first-search-algorithm.netlify.app/" className="btn btn-primary" target="_blank">Live Demo</a>
+          </div>
+        </article>
+
+        <article className="portfolio__item">
+          <div className="portfolio__item-image">
+            <img src={IMG5} alt="" />
+          </div>
+          <h3>Professional Services Website </h3>
+          <div className="portfolio__item-cta">
+            <a href="https://github.com/Waynium/React-Professional-Services" className="btn" target="_blank">Github</a>
+            <a href="https://github.com/Waynium/React-Professional-Services" className="btn btn-primary" target="_blank">Live Demo</a>
           </div>
         </article>
 

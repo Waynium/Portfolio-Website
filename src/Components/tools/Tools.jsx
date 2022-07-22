@@ -30,11 +30,11 @@ const tool = () => {
                 <small className="text-light">Intermediate</small>
               </div>
             </article>
-            
+
             <article className="tool__details">
               <BsPatchCheckFill className="tool__details-icon" />
               <div>
-                <h4>javaScript</h4>
+                <h4>Tailwind CSS</h4>
                 <small className="text-light">Intermediate</small>
               </div>
             </article>
@@ -42,8 +42,16 @@ const tool = () => {
             <article className="tool__details">
               <BsPatchCheckFill className="tool__details-icon" />
               <div>
-                <h4>Bootstrap</h4>
-                <small className="text-light">Basic</small>
+                <h4>JavaScript</h4>
+                <small className="text-light">Intermediate</small>
+              </div>
+            </article>
+
+            <article className="tool__details">
+              <BsPatchCheckFill className="tool__details-icon" />
+              <div>
+                <h4>TypeScript</h4>
+                <small className="text-light">Intermediate</small>
               </div>
             </article>
             
@@ -54,6 +62,8 @@ const tool = () => {
                 <small className="text-light">Basic</small>
               </div>
             </article>
+
+            
 
           </div>
         </div>

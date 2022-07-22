@@ -5,6 +5,7 @@ import {FaUserTie as WorkIcon} from 'react-icons/fa'
 import CSharp from '../../images/images/BasicCSharp.JPG'
 import Java from '../../images/images/BasicJava.JPG'
 import JPMorgan from '../../images/images/JPMorgan Certificate.png'
+import ReactEssentials from '../../images/images/BasicReact.JPG'
 
 import {
   VerticalTimeline, 
@@ -45,7 +46,6 @@ let timelineElements = [
     description: "I was awarded a Java Certificate from Hackerrank, which highlights my proficiency in the Java language. This includes classes, data structures, inheritance, exception handling, etc.",
     date: "21 May 2021",
     icon: "school",
-    image: "java"
   },
   {
     id: 5,
@@ -53,8 +53,7 @@ let timelineElements = [
     location: "Hackerrank",
     description: "I was awarded a C# Certificate from Hackerrank, which highlights my proficiency in the C# language. This includes types, and Variables, basic OOP, Properties and Indexers, Collections, Exception handling, among others.",
     date: "21 September 2021",
-    icon: "school",
-    image: "csharp"
+    icon: "school"
   },
   {
     id: 6,
@@ -62,8 +61,15 @@ let timelineElements = [
     location: "JP Morgan & Chase",
     description: "Worked on React and Perspective framework, to display fluctuating trading prices to the traders. Python was used for the backend server, which was used to provide the stock price data feed.",
     date: "December 2021 - February 2022",
-    icon: "school",
-    image: "jpmorgan"
+    icon: "school"
+  },
+  {
+    id: 7,
+    title: "Certificate Of Completion Award",
+    location: "Linkedin",
+    description: "I worked on React fundamentals; React reusable components, React hooks, React Testing, React routers, Good React Practices",
+    date: "July 2022",
+    icon: "school"
   }
 ]
 
@@ -81,10 +87,7 @@ const Education = () => {
         {<VerticalTimeline>
           {timelineElements.map(element => {
             let isWorkIcon = element.icon === "work";
-            let isJava = element.image === "java";
-            let isCSharp = element.image === "csharp";
-            let isMorgan = element.image === "jpmorgan";
-
+  
             return (
               <VerticalTimelineElement
                 className="elementBox"
@@ -105,14 +108,18 @@ const Education = () => {
                 </p>
                 <br></br>
                 <a href="https://www.hackerrank.com/certificates/111852cebf7a">
-                  <img alt="" src={isJava ? Java : {}} />
+                  <img alt="" src={element.id===4 ? Java : {}} />
                 </a>
                 <a href="https://www.hackerrank.com/certificates/b8d9d237c58b">
-                  <img alt="" src={isCSharp ? CSharp : {}} />
+                  <img alt="" src={element.id===5 ? CSharp : {}} />
                 </a>
                 <a href="https://github.com/Waynium/JPMorgan-Tech-Task3">
-                  <img alt="" src={isMorgan ? JPMorgan : {}} />
+                  <img alt="" src={element.id===6 ? JPMorgan : {}} />
                 </a>
+                <a href="https://www.linkedin.com/learning/certificates/1b2b19312f6503ab177eb5dda2e80bfbec6624c81ffabba44eb3635f6a71e015?u=70295562">
+                  <img alt="" src={element.id===7 ? ReactEssentials : {}} />
+                </a>
+
               </VerticalTimelineElement>
             )
           })}
