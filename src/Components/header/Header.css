@@ -17,6 +17,7 @@ header {
     padding: 2rem;
     text-align: center;
     transition: var(--transition);
+    margin-bottom: -20rem;
 }
 
 .about__card {

@@ -8,6 +8,7 @@
     background: var(--colour-bg-variant);
     padding: 1.3rem;
     border-radius: 2rem;
+    align-items: center;
     border: 1px solid transparent;
     transition: var(--transition);
 }
@@ -30,6 +31,8 @@
     display: flex;
     gap: 1rem;
     margin-bottom: 1rem;
+    align-items: center;
+    /*justify-content: center;*/
 }
 
 /********************* Media Queries (medium devices) ***********************/

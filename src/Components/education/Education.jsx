@@ -4,8 +4,10 @@ import {FaUserGraduate as SchoolIcon} from 'react-icons/fa'
 import {FaUserTie as WorkIcon} from 'react-icons/fa'
 import CSharp from '../../images/images/BasicCSharp.JPG'
 import Java from '../../images/images/BasicJava.JPG'
-import JPMorgan from '../../images/images/JPMorgan Certificate.png'
+//import JPMorgan from '../../images/images/JPMorgan Certificate.png'
 import ReactEssentials from '../../images/images/BasicReact.JPG'
+//import MTNAward from '../../images/images/MTNAppAward.JPG'
+import DjangoEssentials from '../../images/images/BasicDjango.jpg'
 
 import {
   VerticalTimeline, 
@@ -35,7 +37,7 @@ let timelineElements = [
     id: 3,
     title: "Computer Science Tutor",
     location: "University Of Cape Town",
-    description: "I was selected as one of the tutors to tutor Computer Science to first years at UCT. The course was an Introductory Computer Science course taught in the Python programming language.",
+    description: "Tutored CSC1015F, an introductory course to Python for first-year Computer Science students. Provided assessment and feedback on student assignments. Collaborated with fellow professional tutors during hotseat tutoring",
     date: "March 2021 - July 2021",
     icon: "work"
   },
@@ -55,21 +57,45 @@ let timelineElements = [
     date: "21 September 2021",
     icon: "school"
   },
-  {
+  /*{
     id: 6,
     title: "Software Engineer Virtual Intern",
     location: "JP Morgan & Chase",
     description: "Worked on React and Perspective framework, to display fluctuating trading prices to the traders. Python was used for the backend server, which was used to provide the stock price data feed.",
     date: "December 2021 - February 2022",
     icon: "school"
-  },
+  },*/
   {
-    id: 7,
+    id: 6,
     title: "Certificate Of Completion Award",
     location: "Linkedin",
     description: "I worked on React fundamentals; React reusable components, React hooks, React Testing, React routers, Good React Practices",
     date: "July 2022",
     icon: "school"
+  },
+  {
+    id: 7,
+    title: "Certificate Of Completion Award",
+    location: "Linkedin",
+    description: "Django built-in User management, Database interaction with Django, Dynamic webpages and forms, User authentication",
+    date: "July 2023",
+    icon: "school"
+  },
+  {
+    id: 8,
+    title: "Embedded Systems II Tutor",
+    location: "University Of Cape Town",
+    description: "Proficiently tutored a Computer/Electrical Engineering course, EEE3096S which is an advanced course in Embedded Systems. Guided students in mastering embedded systems architectures, firmware and software tool stacks. Mentored students in their final year project, enhancing software features and conducting performance testing.",
+    date: "July 2023 - November 2023",
+    icon: "work"
+  },
+  {
+    id: 9,
+    title: "Junior Software Engineer",
+    location: "BBD",
+    description: "Employed as Junior Software Engineer at BBD - Barone Budge & Dominick (Pty) Ltd",
+    date: "January 2024 - Present",
+    icon: "work"
   }
 ]
 
@@ -113,11 +139,14 @@ const Education = () => {
                 <a href="https://www.hackerrank.com/certificates/b8d9d237c58b">
                   <img alt="" src={element.id===5 ? CSharp : {}} />
                 </a>
-                <a href="https://github.com/Waynium/JPMorgan-Tech-Task3">
+                {/*<a href="https://github.com/Waynium/JPMorgan-Tech-Task3">
                   <img alt="" src={element.id===6 ? JPMorgan : {}} />
-                </a>
+                </a>*/}
                 <a href="https://www.linkedin.com/learning/certificates/1b2b19312f6503ab177eb5dda2e80bfbec6624c81ffabba44eb3635f6a71e015?u=70295562">
-                  <img alt="" src={element.id===7 ? ReactEssentials : {}} />
+                  <img alt="" src={element.id===6 ? ReactEssentials : {}} />
+                </a>
+                <a href="https://www.linkedin.com/learning/certificates/66af073e0bd4cff198ebab858500706328cc1f3d2f5cb0d404d99929dd4cf781?u=70295562">
+                  <img alt="" src={element.id===7 ? DjangoEssentials : {}} />
                 </a>
 
               </VerticalTimelineElement>
