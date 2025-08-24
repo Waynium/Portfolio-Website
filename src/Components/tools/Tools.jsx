@@ -21,27 +21,11 @@ const tool = () => {
                 <small className="text-light">Experienced</small>
               </div>
             </article>
-
-            <article className="tool__details">
-              <BsPatchCheckFill className="tool__details-icon" />
-              <div>
-                <h4>XML</h4>
-                <small className="text-light">Experienced</small>
-              </div>
-            </article>
             
             <article className="tool__details">
               <BsPatchCheckFill className="tool__details-icon" />
               <div>
                 <h4>CSS</h4>
-                <small className="text-light">Intermediate</small>
-              </div>
-            </article>
-
-            <article className="tool__details">
-              <BsPatchCheckFill className="tool__details-icon" />
-              <div>
-                <h4>Tailwind CSS</h4>
                 <small className="text-light">Intermediate</small>
               </div>
             </article>
@@ -53,6 +37,7 @@ const tool = () => {
                 <small className="text-light">Intermediate</small>
               </div>
             </article>
+
             <article className="tool__details">
               <BsPatchCheckFill className="tool__details-icon" />
               <div>
@@ -68,6 +53,7 @@ const tool = () => {
         <div className="tool__backend">
           <h3>Backend Development</h3>
           <div className="tool__content">
+
             <article className="tool__details">
               <BsPatchCheckFill className="tool__details-icon" />
               <div>
@@ -75,6 +61,7 @@ const tool = () => {
                 <small className="text-light">Intermediate</small>
               </div>
             </article>
+
             <article className="tool__details">
               <BsPatchCheckFill className="tool__details-icon" />
               <div>
@@ -82,13 +69,7 @@ const tool = () => {
                 <small className="text-light">Intermediate</small>
               </div>
             </article>
-            <article className="tool__details">
-              <BsPatchCheckFill className="tool__details-icon" />
-              <div>
-                <h4>Kotlin</h4>
-                <small className="text-light">Intermediate</small>
-              </div>
-            </article>
+
             <article className="tool__details">
               <BsPatchCheckFill className="tool__details-icon" />
               <div>
@@ -96,17 +77,11 @@ const tool = () => {
                 <small className="text-light">Basic</small>
               </div>
             </article>
+
             <article className="tool__details">
               <BsPatchCheckFill className="tool__details-icon" />
               <div>
-                <h4>MySQL</h4>
-                <small className="text-light">Intermediate</small>
-              </div>
-            </article>
-            <article className="tool__details">
-              <BsPatchCheckFill className="tool__details-icon" />
-              <div>
-                <h4>C#.NET</h4>
+                <h4>Docker</h4>
                 <small className="text-light">Intermediate</small>
               </div>
             </article>
@@ -118,6 +93,7 @@ const tool = () => {
         <div className="tool__versionControl">
           <h3>Version Control Software</h3>
           <div className="tool__content">
+
             <article className="tool__details">
               <BsPatchCheckFill className="tool__details-icon" />
               <div>
@@ -125,6 +101,7 @@ const tool = () => {
                 <small className="text-light">Intermediate</small>
               </div>
             </article>
+
             <article className="tool__details">
               <BsPatchCheckFill className="tool__details-icon" />
               <div>
@@ -132,6 +109,7 @@ const tool = () => {
                 <small className="text-light">Intermediate</small>
               </div>
             </article>
+
             <article className="tool__details">
               <BsPatchCheckFill className="tool__details-icon" />
               <div>
@@ -139,13 +117,7 @@ const tool = () => {
                 <small className="text-light">Basic</small>
               </div>
             </article>
-            <article className="tool__details">
-              <BsPatchCheckFill className="tool__details-icon" />
-              <div>
-                <h4>VS Code</h4>
-                <small className="text-light">Expert</small>
-              </div>
-            </article>
+
             <article className="tool__details">
               <BsPatchCheckFill className="tool__details-icon" />
               <div>
@@ -156,8 +128,45 @@ const tool = () => {
           </div>
         </div>
 
-      </div>
+        {/* Cloud*/}
+        <div className="tool__versionControl">
+          <h3>Platform Engineering</h3>
+          <div className="tool__content">
 
+            <article className="tool__details">
+              <BsPatchCheckFill className="tool__details-icon" />
+              <div>
+                <h4>Github Actions - CI/CD</h4>
+                <small className="text-light">Intermediate</small>
+              </div>
+            </article>
+
+            <article className="tool__details">
+              <BsPatchCheckFill className="tool__details-icon" />
+              <div>
+                <h4>AWS</h4>
+                <small className="text-light">Basic</small>
+              </div>
+            </article>
+
+            <article className="tool__details">
+              <BsPatchCheckFill className="tool__details-icon" />
+              <div>
+                <h4>Terraform</h4>
+                <small className="text-light">Basic</small>
+              </div>
+            </article>
+
+            <article className="tool__details">
+              <BsPatchCheckFill className="tool__details-icon" />
+              <div>
+                <h4>Azure</h4>
+                <small className="text-light">Basic</small>
+              </div>
+            </article>
+          </div>
+        </div>
+      </div>
     </section>
   )
 }

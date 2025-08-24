@@ -1,22 +1,24 @@
 {
   "files": {
-    "main.css": "/static/css/main.4d5b6a19.css",
-    "main.js": "/static/js/main.d0098a55.js",
+    "main.css": "/static/css/main.07f157d2.css",
+    "main.js": "/static/js/main.3ba65100.js",
     "static/media/stellies2.jpg": "/static/media/stellies2.5fce93d9ef6dca2dd815.jpg",
+    "static/media/Visualizer.jpg": "/static/media/Visualizer.a51e34dda7e96e410aca.jpg",
     "static/media/waynium2.jpg": "/static/media/waynium2.55bdc3526c68509cf5d9.jpg",
     "static/media/BasicJava.JPG": "/static/media/BasicJava.7d4fbfee37220b932d03.JPG",
     "static/media/BasicCSharp.JPG": "/static/media/BasicCSharp.62ce802c556d0678d334.JPG",
-    "static/media/Preview.jpg": "/static/media/Preview.6d09d3b2bb3f109cc267.jpg",
-    "static/media/JPMorgan Trading graph.JPG": "/static/media/JPMorgan Trading graph.aabea8db70e99832f585.JPG",
-    "static/media/JPMorgan Certificate.png": "/static/media/JPMorgan Certificate.da13192d1c4a351ee4b4.png",
+    "static/media/Professional Services Website.JPG": "/static/media/Professional Services Website.d5bde9150c5865e87281.JPG",
+    "static/media/bloggingwebsite.JPG": "/static/media/bloggingwebsite.b5fd3ea0e335c07b86db.JPG",
+    "static/media/BasicReact.JPG": "/static/media/BasicReact.b2a8893d778bffff8570.JPG",
     "static/media/CV.pdf": "/static/media/CV.d2b0d38b79dc6ca3140c.pdf",
-    "static/media/Software Engineering portfolio.jpg": "/static/media/Software Engineering portfolio.5311f8af8fe8e0e672f7.jpg",
+    "static/media/BasicDjango.jpg": "/static/media/BasicDjango.14afc44f31d3131906c7.jpg",
+    "static/media/Software Engineering portfolio.jpg": "/static/media/Software Engineering portfolio.22106a1bf6cbc919c27e.jpg",
     "index.html": "/index.html",
-    "main.4d5b6a19.css.map": "/static/css/main.4d5b6a19.css.map",
-    "main.d0098a55.js.map": "/static/js/main.d0098a55.js.map"
+    "main.07f157d2.css.map": "/static/css/main.07f157d2.css.map",
+    "main.3ba65100.js.map": "/static/js/main.3ba65100.js.map"
   },
   "entrypoints": [
-    "static/css/main.4d5b6a19.css",
-    "static/js/main.d0098a55.js"
+    "static/css/main.07f157d2.css",
+    "static/js/main.3ba65100.js"
   ]
 }

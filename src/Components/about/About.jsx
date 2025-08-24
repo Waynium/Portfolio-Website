@@ -1,7 +1,7 @@
 import React from 'react'
 import './About.css'
 /*import ME from '../../images/images/stellies2.jpg'*/
-import waynium from '../../images/images/waynium2.jpg'
+import waynium from '../../images/images/wandile2.jpg'
 import {IoIosChatbubbles} from 'react-icons/io'
 import {GiSoccerBall} from 'react-icons/gi'
 //import {VscFolderLibrary} from 'react-icons/vsc'
@@ -26,9 +26,9 @@ const About = () => {
               <IoIosChatbubbles className="about__icon"/>
               <h4>Bio</h4>
               <p>
-                I am Wandile, currently pursuing a B.Sc degree in Computer Science 
-                and Computer Engineering at UCT. I find it satisfying to create software
-                that not only influences my everyday life, but helps other people as well. 
+                I am Wandile, currently pursuing a career in Software Engieering. I find it satisfying to create software
+                that not only influences my everyday life, but helps other people as well. Right now, my vision to study how
+                tech can impact South Africa, as a country that has a large percentage of youth unemployment rate.
               </p>
             </article>
 
@@ -38,8 +38,6 @@ const About = () => {
               <p>
                 My hobbies include singing and playing the guitar.
                 I enjoy playing soccer with my mates on Saturdays as well.
-                You can read more about my hobbies from my blog that's coming out
-                soon.
               </p>
             </article>
             

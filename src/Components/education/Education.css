@@ -23,6 +23,11 @@ body {
     font-size: 0.85rem !important;
 }
 
+.timeline-image {
+    width: 50%;
+    justify-self: center;
+}
+
 /************************* Media Queries (Medium Devices) ***************************/
 @media screen and (max-width: 1024px) {
     #id {
